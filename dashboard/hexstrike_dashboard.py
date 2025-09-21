@@ -25,7 +25,7 @@ class Colors:
     NC = '\033[0m'  # No Color
 
 class HexStrikeDashboard:
-    def __init__(self, api_base="http://localhost:8888", refresh_interval=5):
+    def __init__(self, api_base="http://0.0.0.0:8888", refresh_interval=5):
         self.api_base = api_base
         self.refresh_interval = refresh_interval
         self.session = requests.Session()

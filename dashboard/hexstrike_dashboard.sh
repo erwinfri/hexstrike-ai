@@ -3,7 +3,7 @@
 # HexStrike Live Dashboard Monitor
 # This script continuously displays the live dashboard
 
-HEXSTRIKE_API="http://localhost:8888"
+HEXSTRIKE_API="http://0.0.0.0:8888"
 REFRESH_INTERVAL=5
 
 # Colors for output
